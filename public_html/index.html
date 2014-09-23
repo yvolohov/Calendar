@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Календарь</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/calendar.css" rel="stylesheet" type="text/css"> 
+        <script type="text/javascript" src="js/calendar.js"></script>
+        <style type="text/css">
+            body 
+            {
+                font-family: Arial, sans-serif;
+                font-size: 13px;
+            }
+            div {display: inline-block;}
+            input {text-align: center;}
+        </style>
+    </head>
+    <body>
+        Выберите дату: 
+        <div><input type="text" id="cont1"/></div>
+        <script type="text/javascript">
+            var yvc1 = new yvCalendar(document.getElementById("cont1"));
+        </script>    
+    </body>
+</html>
